@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText( context, text,Toast.LENGTH_LONG );
         toast.show();
-        
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
 
     }
     @Override
@@ -31,7 +35,11 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
     }
     @Override
     protected void onStop() {
@@ -41,7 +49,11 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
     }
     @Override
     protected void onDestroy() {
@@ -51,7 +63,11 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
     }
     @Override
     protected void onPause() {
@@ -61,7 +77,11 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
     }
     @Override
     protected void onResume() {
@@ -71,6 +91,10 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
-
+        Log.i(TAG, "Информация пошла в журнал");
+        Log.w(TAG, "Предупреждение пошло журнал");
+        Log.d(TAG, "Отладка пошла в журнал");
+        Log.v(TAG, "Подробности пошли в журнал");
+        Log.e(TAG, "Error пошла в журнал");
     }
 }
